@@ -1,9 +1,130 @@
-html {
-  height: 100%;
-}
+*{margin:0;padding:0;box-sizing: border-box;}
 
 body {
   font-family: var(--t-body);
-  height: inherit;
+ 
   margin: 0;
+}
+
+.landing{
+  height: 100vh;
+  background-image: url(..//..//_DSC0026.JPG);
+  background-size:100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.landing a{
+  font-family: Myanmar;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: black;
+  margin-top: 30
+}
+.landing h1{
+  padding-bottom: 40px;
+  font-family: myanmar, bold;
+  font-size: 100px;
+}
+.landing h2{
+  padding-bottom: 40px;
+  font-family: myanmar, bold;
+  font-size: 30px;
+}
+.mainnav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 50px;
+  list-style: none;
+  background-color: white;
+  
+}
+.mainnav li {
+  display: block;
+  padding: 20px 30px 10px 30px;
+
+}
+.mainnav li a{
+  text-decoration: none;
+  font-family: "Myanmar Text", Times, serif;
+  font-size: 20px;
+  color: black;  
+}
+.landinghome > .container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+} 
+.active{
+  background-color: rgb(74, 68, 197);
+  overflow: hidden;
+  border-radius: 50px;
+  margin-left: 0px;
+  border-color: black;
+}
+.landinghome{
+  height: 100vh;
+  background-image: url(..//zebra-938706_1920.png);
+  background-size:100%;
+}
+img{
+  height:600px;
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+.textuitleg{
+  font-family: "Myanmar Text", Times, bold;
+  font-size: 22px;
+  margin-top: 0;
+  background-color:rgb(74, 68, 197);
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+.textboeken{
+  font-family: "Myanmar Text", Times, bold;
+  font-size: 22px;
+  background-color:white;
+  padding: 30px;
+  color: black;
+  text-align: center;
+}
+.textinfo{
+  font-family: "Myanmar Text", Times, bold;
+  font-size: 22px;
+  background-color:rgb(74, 68, 197);
+  padding:0px;
+  color: white;
+  text-align: right;
+}
+#img-textinfo{
+  height: 350px;
+  width: 350px;
+  margin:0px;
+  }
+.blyet{
+  list-style: none;
+  display:flex;
+  text-align: center;
+  background-color: white;
+  justify-content: space-between;
+}
+.textfinal{
+  text-align: center;
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  font-size: 20pt;
 }
